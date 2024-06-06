@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Roboto:wght@400;500;700&display=swap');
+
+$BgMain: #0e0e10;
+$BgHeader: #18181b;
+$BgSidebar: #1f1f23;
+$mainTitleColor: #efeff1;
+$mainTextColor: #adadb8;
+$BgDivColor: #53535f; //jouer sur l'opacité au hover
+$BgPurple: #f547ff;
+
+@mixin font-title($size: 3.6rem, $weight: 700) {
+  font-family: 'inter', sans-serif;
+  color: $mainTitleColor;
+  font-size: $size;
+  font-weight: $weight;
+}
+@mixin font-text($size: 1.3rem, $weight: 400) {
+  font-family: 'Roboto', sans-serif;
+  color: $mainTextColor;
+  font-size: $size;
+  font-weight: $weight;
+}

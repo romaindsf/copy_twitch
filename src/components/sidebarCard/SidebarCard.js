@@ -2,7 +2,7 @@ import styles from './_sidecardbar.module.scss'
 
 export default function SidebarCard({ title, category, viewerCount }) {
   return (
-    <a className={styles.sidebar_card}>
+    <a className={styles.sidebar_card} href={`/${title}`}>
       <div>
         <div>
           <h3>{title}</h3>

@@ -10,10 +10,7 @@ export default function Header() {
             <Link href='/'>Accueil</Link>
           </li>
           <li>
-            <Link href='champion'>Champions</Link>
-          </li>
-          <li>
-            <Link href='tierlist'>Tier list</Link>
+            <Link href='browse'>browse</Link>
           </li>
         </ul>
       </nav>

@@ -1,7 +1,25 @@
+@use '../../utils/_utils' as *;
+
 .sidebar_card {
-  padding: 1.5rem;
-  div {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 8px;
+  &:hover {
+    background-color: #26262c;
+  }
+  > div {
     display: flex;
-    gap: 1rem;
+    justify-content: space-between;
+    > div {
+      width: 75%;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      overflow: hidden;
+    }
+  }
+  h3 {
+    @include font-title(1.2rem);
   }
 }

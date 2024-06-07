@@ -8,7 +8,7 @@ $mainTextColor: #adadb8;
 $BgDivColor: #53535f; //jouer sur l'opacité au hover
 $BgPurple: #f547ff;
 
-@mixin font-title($size: 3.6rem, $weight: 700) {
+@mixin font-title($size: 1.6rem, $weight: 600) {
   font-family: 'inter', sans-serif;
   color: $mainTitleColor;
   font-size: $size;

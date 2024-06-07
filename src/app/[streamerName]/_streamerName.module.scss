@@ -1,0 +1,31 @@
+@use '../../utils/utils' as *;
+
+.main {
+  padding: 2rem;
+  box-sizing: border-box;
+  width: 75%;
+  h2 {
+    text-align: start;
+    padding-left: 0;
+  }
+}
+.video_div {
+  height: 40dvh;
+  margin-bottom: 2rem;
+  border: 3px solid $mainTextColor;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.description_div {
+  display: flex;
+  justify-content: space-between;
+}
+.chat {
+  width: 20%;
+  height: 93dvh;
+  position: absolute;
+  top: 7dvh;
+  right: 0;
+  border: 2px solid $mainTextColor;
+}
